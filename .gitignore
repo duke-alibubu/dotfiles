@@ -1,0 +1,10 @@
+# Secrets / machine-specific files - never commit
+*.local
+!*.local.example
+.env*
+*_history
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~

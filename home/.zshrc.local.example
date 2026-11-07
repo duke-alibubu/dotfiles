@@ -1,0 +1,11 @@
+# Copy to ~/.zshrc.local and fill in real values. Never commit the real file.
+
+# argocd (used by argocd_vdone_dev)
+export ARGOCD_VDONE_PASSWORD=""
+
+# intervals.icu
+export INTERVAL_ICU_API_KEY=""
+export INTERVAL_ICU_ATHLETE_ID=""
+
+# garmin
+export GARMIN_CONNECT_API_KEY=""
