@@ -15,6 +15,19 @@ home/                    # files that live in ~
   .zshrc.local.example   # template for ~/.zshrc.local (secrets)
 ```
 
+## Install
+
+`install.sh` symlinks every file in `home/` into `~` (except `.zshrc.local.example`).
+Anything it replaces is moved to `~/.dotfiles-backup/<timestamp>/` first, and re-running it is safe.
+
+```sh
+cp home/.zshrc.local.example ~/.zshrc.local   # then fill in real values
+./install.sh --dry                            # preview
+./install.sh
+```
+
+It refuses to run until `~/.zshrc.local` exists, so secrets are never silently dropped from your shell.
+
 ## Secrets
 
 API keys and passwords are not tracked.
