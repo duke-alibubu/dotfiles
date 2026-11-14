@@ -14,6 +14,7 @@ This is a living document. Edit freely. Real examples are worth more than any ru
 
 ## Tone
 
+- Informal by default. Write like a quick chat message, not an email.
 - Friendly, low-key, no hype.
 - No marketing speak and no buzzwords.
 - Honest about uncertainty: "I think", "I believe", "perhaps", "it seems to me that".
@@ -27,7 +28,9 @@ This is a living document. Edit freely. Real examples are worth more than any ru
 - Use parentheses for side notes and clarifications: "(so at most, it checks twice before it gives up entirely)".
 - Use " - " to join a statement and its follow-up or reason: "Let's save this in TODOs for now - we have more important tasks at hand."
 - Use "->" to show a consequence or a mapping: "start the tag as v0.0.0 -> the next patch version will be v0.0.1".
-- Keep it short. Most messages are one to three sentences.
+- Keep it short. Default to 2-3 sentences, and one is often enough.
+- Ask one follow-up question, not several. Do not explain why I am asking.
+- Do not restate or summarize what the other person said.
 
 ## Words and phrases I actually use
 
