@@ -149,7 +149,7 @@ alias ag_open_note="ag -n ~/code/notes.md"
 alias ag_open_notes="ag -n ~/code/notes.md"
 
 # Added by Antigravity IDE
-export PATH="/Users/alibubu/.antigravity-ide/antigravity-ide/bin:$PATH"
+export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -157,10 +157,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/alibubu/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/alibubu/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/Downloads/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/Downloads/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/alibubu/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/alibubu/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/Downloads/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/Downloads/google-cloud-sdk/completion.zsh.inc"; fi
 
 # Secrets and machine-specific settings live in ~/.zshrc.local (not tracked).
 # See .zshrc.local.example for the variables it should define.
